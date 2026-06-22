@@ -1,5 +1,10 @@
 # Predicting Single-Bid Public Procurement Contracts in Bulgaria
 
+> **🚧 Work in progress.** The data foundation (exploration, cleaning, problem
+> framing) is complete; modelling and evaluation are in progress. Section 8 of
+> `report.ipynb` (Results and conclusions) will be filled in as the project
+> develops.
+
 Can a contract's characteristics predict whether it will attract only a
 **single bid** - a recognised competition red-flag indicator (not a measure of
 corruption)? This project builds a classifier on Bulgarian public procurement
