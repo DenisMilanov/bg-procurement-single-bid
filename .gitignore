@@ -1,5 +1,6 @@
 # Data — too large to track
 *.csv
+*.zip
 
 # Jupyter
 .ipynb_checkpoints/
