@@ -73,3 +73,14 @@ Current SIGMA coverage at the time of download:
 ## License / attribution
 
 Data: CC-BY 4.0, АОП / ЦАИС ЕОП via SIGMA.
+
+## References — single-bid as a competition-risk indicator
+
+- European Commission, Single Market Scoreboard — "Single bidder" indicator
+  (triple-weighted; proportion of contracts with one bidder; framework
+  agreements excluded, direct awards handled separately).
+  https://single-market-scoreboard.ec.europa.eu/business-framework-conditions/public-procurement_en
+
+- OECD, Guidelines for Fighting Bid Rigging in Public Procurement
+  (red flags are signals, not proof; pattern over time > single instance).
+  https://www.oecd.org/en/topics/sub-issues/competition-enforcement/fighting-bid-rigging-in-public-procurement.html

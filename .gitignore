@@ -1,6 +1,5 @@
 # Data — too large to track
 *.csv
-sigma-contracts.csv
 
 # Jupyter
 .ipynb_checkpoints/
