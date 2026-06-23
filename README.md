@@ -120,6 +120,25 @@ Snapshot details:
 - Currency: contract values standardised in EUR
 - Access: direct CSV export from SIGMA; no public real-time API is provided as of June 16, 2026
 
+## Sector labels (CPV reference)
+
+The `sector_code` feature is the **CPV 2008 division** — the first two digits
+of a contract's Common Procurement Vocabulary code (Regulation (EC) No 213/2008).
+
+Human-readable names for these codes are derived in
+[`notebooks/00_cpv_sector_reference.ipynb`](notebooks/00_cpv_sector_reference.ipynb),
+which reads the official EU code list and writes
+[`data/reference/cpv_sectors.csv`](data/reference/cpv_sectors.csv). The later
+notebooks load that CSV. Every label is taken verbatim from the official file —
+none are hand-written or guessed.
+
+**Source:** Common Procurement Vocabulary (CPV) 2008, official multilingual code
+list (`data/reference/cpv_2008_ver_2013.xlsx`), published by the European
+Commission via TED/SIMAP (https://ted.europa.eu/en/simap/cpv). Legal basis:
+Regulation (EC) No 2195/2002, as amended by Regulation (EC) No 213/2008. EU
+material is reused under the Commission's reuse policy (Decision 2011/833/EU)
+with attribution.
+
 ## Structure
 
 - `report.ipynb` - project write-up: problem, framing, significance, results (root)
